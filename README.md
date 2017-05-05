@@ -2,7 +2,7 @@
 This app follows the MVC design pattern. The main functionality is that you can 'Add A Burger' and the MySql database is updated. You can also click 'EAT ME' or 'DELETE' and the burger's status will be updated in the databse, as well as move to the appropriate column in the HTML display. 
 
 ## Live Link 
- - www.example.com
+ - https://afternoon-beach-98914.herokuapp.com/
 
 ## Description on how to use the app
 Add a Burger to the list. Then, click 'EAT ME' or 'DELETE' to move the burger to the appropriate list. 
