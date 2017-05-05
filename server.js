@@ -33,10 +33,6 @@ app.post('/create', function(req,res){
 		res.redirect('/');
 	})
 })
-// Call orm method, passing in the anonymous function (with "res") as the callback.
-// orm.selectWhere("burgers", "burger_name", "devoured","date", function(result) {
-//   var data = result;
-//   console.log(data);
-// });
+
 
 app.listen(port);
