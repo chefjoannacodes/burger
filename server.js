@@ -27,6 +27,12 @@ var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
 
+app.post('/create', function(req,res){
+	connection.query('INSERT INTO burgers (burger_name) VALUES (?);', [req.body.burger_name],function(err,result){
+		if(err)throw err;
+		res.redirect('/');
+	})
+})
 // Call orm method, passing in the anonymous function (with "res") as the callback.
 // orm.selectWhere("burgers", "burger_name", "devoured","date", function(result) {
 //   var data = result;
