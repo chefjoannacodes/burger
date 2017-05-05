@@ -1,19 +1,89 @@
+h1{
+	text-align: center;
+	color: red;
+	font-size: 64px;
+}
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  /*padding: 5px;
+  margin: 2px;*/
+  /*background: #faebd7;*/
+  width: 200px;
+
+}
+ul {
+	list-style-type: none;
+	margin-right: 1px;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-size: 20px;
+}
+h2 {
+	position: relative;
 }
 
 .label {
   font-weight: bold;
 }
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+body{
+	background-image:url(../img/lead_960.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+
 
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  text-align: center;
+
 }
 
 .form-group {
   margin-bottom: 5px;
+  text-align: center;
+}
+
+/*.row {
+	float: left;
+	
+}*/
+#burger2Try {
+	background-color: red;
+	float: left;
+	opacity: 0.9;
+}
+#addBurger {
+	text-align: center;
+	background-color: blue;
+	float: left;
+	/*display: block;*/
+    margin: auto;
+    margin-left: 20px;
+    padding-right: 0px;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    opacity: 0.9;
+}
+#burgersEaten {
+	float:right;
+	background-color: yellow;
+	position:relative;
+	overflow: auto;
+	opacity: 0.9;
+}
+#submit {
+	font-size: 12px;
 }
